@@ -1,0 +1,995 @@
+@media screen and (min-width : 0px) and (max-width : 430px) {
+  .betterexp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+    color: black;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: lightgray;
+  }
+
+  .body {
+    height: 5vh;
+    width: 100vw;
+  }
+
+  .content h2 {
+    border-top: 1px solid black;
+    font-size: 1.2rem;
+    width: 100vw;
+  }
+
+  .secondline {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5vh;
+  }
+
+  .sdchild {
+    font-size: 0.8rem;
+  }
+
+  .thirdmain {
+    display: hidden;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    cursor: not-allowed;
+    position: absolute;
+    top: 0;
+  }
+
+  .navbar {
+    width: auto;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    visibility: visible;
+    pointer-events: visible;
+    cursor: auto;
+    opacity: 1;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+  }
+
+  .navbar-nav {
+    background-color: white;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+  }
+
+  .secone {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: auto;
+  }
+
+  .since {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    width: 180px;
+    height: 30px;
+  }
+
+  .shoking {
+    font-size: 3rem;
+  }
+
+  .visa {
+    font-size: 3rem;
+  }
+
+  .webring {
+    font-size: 1rem;
+  }
+
+  .solution,
+  .readmore {
+    width: 120px;
+    height: 40px;
+    font-size: 0.8rem;
+  }
+
+  .between {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+  }
+
+  .betweennav {
+    width: 220px;
+  }
+
+  .sectwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    width: auto;
+
+  }
+
+  .sectwonav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .coupleimg {
+    height: 400px;
+    width: 300px;
+  }
+
+  .sectwopara {
+    width: 300px;
+    padding: 0.5rem;
+    text-align: justify;
+  }
+
+  .sectwonavchildtwo {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .travelpara,
+  .visapara {
+    width: 150px;
+  }
+
+  .about {
+    width: 120px;
+    height: 5vh;
+  }
+
+  .secthree {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    width: auto;
+
+  }
+
+  .secthreenav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .secthreenavchild {
+    width: 230px;
+    margin-bottom: 0.5rem;
+  }
+
+  .consultant {
+    font-size: 0.7rem;
+  }
+
+  .secfive {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+
+  }
+
+  .immigrationtxt {
+    text-align: center;
+  }
+
+  .secfivenav {
+    flex-wrap: wrap;
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+
+  .secfivenavchild {
+    width: 300px;
+    margin-bottom: 2.5rem;
+  }
+
+  .secfivechildtwo {
+    width: 200px;
+    height: 90px;
+    margin-bottom: 2rem;
+  }
+
+  .secsix {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .secsixmainnav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .branches {
+    text-align: center;
+  }
+
+  .secsixtxt {
+    width: 300px;
+    text-align: justify;
+  }
+
+  .barempty {
+    width: 300px;
+  }
+
+  .bagimg {
+    width: 300px;
+  }
+
+  .forimmigration {
+    text-align: center;
+  }
+
+  .seceight {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: auto;
+    width: auto;
+    flex-wrap: wrap;
+  }
+
+  .seceightnav {
+    margin-bottom: 1rem;
+    width: 300px;
+  }
+
+  .seceightnavdiv {
+    width: auto;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .menimg {
+    width: 300px;
+    margin-top: 1rem;
+  }
+
+  .meninfo {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bluetext,
+  .meninfopara {
+    text-align: center;
+  }
+
+  .accordion {
+    width: auto;
+    padding: 1rem;
+  }
+
+  .secnine {
+    display: flex;
+    align-items: center;
+  }
+
+  .customer {
+    text-align: center;
+  }
+
+  .caroselslidemain,
+  .d-block {
+    width: 300px;
+  }
+
+  .logoendimg {
+    width: 80px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  footer {
+    height: auto;
+  }
+
+  .footersecondchild {
+    font-size: 0.7rem;
+  }
+
+  .firstchildftr {
+    margin-left: 0rem;
+  }
+}
+
+
+@media screen and (min-width : 430px) and (max-width : 830px) {
+  .betterexp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+    color: black;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: lightgray;
+  }
+
+  .body {
+    height: 5vh;
+    width: 100vw;
+  }
+
+  .content h2 {
+    border-top: 1px solid black;
+    font-size: 2rem;
+    width: 100vw;
+  }
+
+  .secondline {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5vh;
+  }
+
+  .sdchild {
+    font-size: 0.8rem;
+  }
+
+  .thirdmain {
+    display: hidden;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    cursor: not-allowed;
+    position: absolute;
+    top: 0;
+  }
+
+  .navbar {
+    width: auto;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    visibility: visible;
+    pointer-events: visible;
+    cursor: auto;
+    opacity: 1;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+  }
+
+  .navbar-nav {
+    background-color: white;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+  }
+
+  .secone {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: auto;
+  }
+
+  .since {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    width: 180px;
+    height: 30px;
+  }
+
+  .shoking {
+    font-size: 3rem;
+  }
+
+  .visa {
+    font-size: 3rem;
+  }
+
+  .webring {
+    font-size: 1rem;
+  }
+
+  .solution,
+  .readmore {
+    width: 120px;
+    height: 40px;
+    font-size: 0.8rem;
+  }
+
+  .between {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+  }
+
+  .betweennav {
+    width: 220px;
+  }
+
+  .sectwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    width: auto;
+
+  }
+
+  .sectwonav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .coupleimg {
+    height: 400px;
+    width: 300px;
+  }
+
+  .sectwopara {
+    width: 300px;
+    padding: 0.5rem;
+    text-align: justify;
+  }
+
+  .sectwonavchildtwo {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .travelpara,
+  .visapara {
+    width: 150px;
+  }
+
+  .about {
+    width: 120px;
+    height: 5vh;
+  }
+
+  .secthree {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    width: auto;
+
+  }
+
+  .secthreenav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .secthreenavchild {
+    width: 230px;
+    margin-bottom: 0.5rem;
+  }
+
+  .consultant {
+    font-size: 0.7rem;
+  }
+
+  .secfive {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+
+  }
+
+  .immigrationtxt {
+    text-align: center;
+  }
+
+  .secfivenav {
+    flex-wrap: wrap;
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+
+  .secfivenavchild {
+    width: 300px;
+    margin-bottom: 2.5rem;
+  }
+
+  .secfivechildtwo {
+    width: 200px;
+    height: 90px;
+    margin-bottom: 2rem;
+  }
+
+  .secsix {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .secsixmainnav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .branches {
+    text-align: center;
+  }
+
+  .secsixtxt {
+    width: 300px;
+    text-align: justify;
+  }
+
+  .barempty {
+    width: 300px;
+  }
+
+  .bagimg {
+    width: 300px;
+  }
+
+  .forimmigration {
+    text-align: center;
+  }
+
+  .seceight {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: auto;
+    width: auto;
+    flex-wrap: wrap;
+  }
+
+  .seceightnav {
+    margin-bottom: 1rem;
+    width: 300px;
+  }
+
+  .seceightnavdiv {
+    width: auto;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .menimg {
+    width: 300px;
+    margin-top: 1rem;
+  }
+
+  .meninfo {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bluetext,
+  .meninfopara {
+    text-align: center;
+  }
+
+  .accordion {
+    width: auto;
+    padding: 1rem;
+  }
+
+  .secnine {
+    display: flex;
+    align-items: center;
+  }
+
+  .customer {
+    text-align: center;
+  }
+
+  .caroselslidemain,
+  .d-block {
+    width: 300px;
+  }
+
+  .logoendimg {
+    width: 80px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  footer {
+    height: auto;
+  }
+
+  .footersecondchild {
+    font-size: 0.7rem;
+  }
+
+  .firstchildftr {
+    margin-left: 0rem;
+  }
+}
+
+
+
+
+
+
+@media screen and (min-width : 831px) and (max-width : 1030px) {
+  .body {
+    height: 5vh;
+    width: 100vw;
+  }
+
+  .content h2 {
+    font-size: 2rem;
+    width: 100vw;
+  }
+
+  .secondline {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5vh;
+  }
+
+  .sdchild {
+    font-size: 0.8rem;
+  }
+
+  .thirdmain {
+    height: 10vh;
+    display: flex;
+    visibility: visible;
+    opacity: 1;
+    pointer-events: all;
+    cursor: auto;
+    position: sticky;
+    top: 0;
+  }
+
+  .navbar {
+    width: 0;
+    height: 0;
+    display: none;
+    visibility: hidden;
+    pointer-events: none;
+    cursor: none;
+    opacity: 1;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .navbar-nav {
+    background-color: white;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+  }
+
+  .secone {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: auto;
+  }
+
+  .since {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    width: 180px;
+    height: 30px;
+  }
+
+  .shoking {
+    font-size: 3rem;
+  }
+
+  .visa {
+    font-size: 3rem;
+  }
+
+  .webring {
+    font-size: 1rem;
+  }
+
+  .solution,
+  .readmore {
+    width: 120px;
+    height: 40px;
+    font-size: 0.8rem;
+  }
+
+  .between {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+  }
+
+  .betweennav {
+    width: 220px;
+  }
+
+  .sectwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    width: auto;
+
+  }
+
+  .sectwonav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .coupleimg {
+    height: 400px;
+    width: 300px;
+  }
+
+  .sectwopara {
+    width: 300px;
+    padding: 0.5rem;
+    text-align: justify;
+  }
+
+  .sectwonavchildtwo {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .travelpara,
+  .visapara {
+    width: 150px;
+  }
+
+  .about {
+    width: 120px;
+    height: 5vh;
+  }
+
+  .secthree {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    width: auto;
+
+  }
+
+  .secthreenav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .secthreenavchild {
+    width: 230px;
+    margin-bottom: 0.5rem;
+  }
+
+  .consultant {
+    font-size: 0.7rem;
+  }
+
+  .secfive {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+
+  }
+
+  .immigrationtxt {
+    text-align: center;
+  }
+
+  .secfivenav {
+    flex-wrap: wrap;
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+
+  .secfivenavchild {
+    width: 300px;
+    margin-bottom: 2.5rem;
+  }
+
+  .secfivechildtwo {
+    width: 200px;
+    height: 90px;
+    margin-bottom: 2rem;
+  }
+
+  .secsix {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .secsixmainnav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .branches {
+    text-align: center;
+  }
+
+  .secsixtxt {
+    width: 300px;
+    text-align: justify;
+  }
+
+  .barempty {
+    width: 300px;
+  }
+
+  .bagimg {
+    width: 300px;
+  }
+
+  .forimmigration {
+    text-align: center;
+  }
+
+  .seceight {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: auto;
+    width: auto;
+    flex-wrap: wrap;
+  }
+
+  .seceightnav {
+    margin-bottom: 1rem;
+    width: 300px;
+  }
+
+  .seceightnavdiv {
+    width: auto;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .menimg {
+    width: 300px;
+    margin-top: 1rem;
+  }
+
+  .meninfo {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bluetext,
+  .meninfopara {
+    text-align: center;
+  }
+
+  .accordion {
+    width: auto;
+    padding: 1rem;
+  }
+
+  .secnine {
+    display: flex;
+    align-items: center;
+  }
+
+  .customer {
+    text-align: center;
+  }
+
+  .caroselslidemain,
+  .d-block {
+    width: 300px;
+  }
+
+  .logoendimg {
+    width: 80px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  footer {
+    height: auto;
+  }
+
+  .footersecondchild {
+    font-size: 0.7rem;
+  }
+
+  .firstchildftr {
+    margin-left: 0rem;
+  }
+}
