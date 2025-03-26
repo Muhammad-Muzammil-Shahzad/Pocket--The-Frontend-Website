@@ -19,7 +19,6 @@
   }
 
   .content h2 {
-    border-top: 1px solid black;
     font-size: 1.2rem;
     width: 100vw;
   }
@@ -59,8 +58,6 @@
     position: sticky;
     top: 0;
     z-index: 100;
-    -webkit-box-shadow: 5px 5px 15px 5px #000000;
-    box-shadow: 5px 5px 15px 5px #000000;
   }
 
   .navbar-nav {
@@ -356,7 +353,6 @@
   }
 
   .content h2 {
-    border-top: 1px solid black;
     font-size: 2rem;
     width: 100vw;
   }
@@ -396,8 +392,6 @@
     position: sticky;
     top: 0;
     z-index: 100;
-    -webkit-box-shadow: 5px 5px 15px 5px #000000;
-    box-shadow: 5px 5px 15px 5px #000000;
   }
 
   .navbar-nav {
