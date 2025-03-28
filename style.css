@@ -6,7 +6,7 @@
 ::-webkit-scrollbar {
   display: none;
 }
-body, html{
+body,html{
   overflow-x: hidden;
 }
 .intro{
@@ -671,6 +671,7 @@ justify-content: start;
   justify-content: space-evenly;
   align-items: center;
   background-color: lightgrey;
+  text-align: center;
 }
 .caroselslidemain,
 .d-block {
@@ -708,7 +709,6 @@ justify-content: start;
   align-items: center;
 }
 .logoendimg{
-  border : 1px solid red;
   width: 60px;
 }
 footer {
