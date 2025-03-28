@@ -708,6 +708,7 @@ justify-content: start;
   align-items: center;
 }
 .logoendimg{
+  border : 1px solid red;
   width: 60px;
 }
 footer {
