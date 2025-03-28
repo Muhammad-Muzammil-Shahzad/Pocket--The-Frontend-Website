@@ -1,152 +1,54 @@
-html {
-  scroll-behavior: smooth;
-}
-
-* {
-  scroll-behavior: smooth;
+*{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-
-body {
+::-webkit-scrollbar {
+  display: none;
+}
+body{
   overflow-x: hidden;
 }
-
-.secforresponsive {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.intro{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(0, 145, 255);
 }
-
 .betterexp {
   display: none;
   visibility: hidden;
   opacity: 0;
   height: 0;
-  pointer-events: none;
-  cursor: not-allowed;
 }
-
-/* name animation start */
-@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
-
-.body {
-  display: flex;
-  background: white;
-  height: 11vh;
-  width: 100vw;
-  align-items: center;
-  justify-content: center;
-}
-
-.content {
-  position: relative;
-}
-
-.content h2 {
-  color: #fff;
-  font-size: 2.5rem;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  width: 70vw;
-}
-
-.content h2:nth-child(1) {
-  color: transparent;
-  -webkit-text-stroke: 2px rgb(0, 145, 255);
-}
-
-.content h2:nth-child(2) {
-  color: rgb(0, 145, 255);
-  animation: animate 4s ease-in-out infinite;
-}
-
-@keyframes animate {
-
-  0%,
-  100% {
-    clip-path: polygon(0% 45%,
-        16% 44%,
-        33% 50%,
-        54% 60%,
-        70% 61%,
-        84% 59%,
-        100% 52%,
-        100% 100%,
-        0% 100%);
-  }
-
-  50% {
-    clip-path: polygon(0% 60%,
-        15% 65%,
-        34% 66%,
-        51% 62%,
-        67% 50%,
-        84% 45%,
-        100% 46%,
-        100% 100%,
-        0% 100%);
-  }
-}
-
-/* name animation end */
 .secondline {
-  /* border: 1px solid red; */
-  width: 100vw;
-  height: 7vh;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 500;
   font-family: Roboto, sans-serif;
   background-color: rgb(0, 145, 255);
   color: black;
 }
-
-.navbar {
-  height: 0;
-  display: hidden;
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
-  cursor: not-allowed;
-  position: absolute;
+header{
+  position: sticky;
   top: 0;
+  background-color: white;
+  z-index: 100;
 }
-
-.thirdmain {
-  width: 100vw;
-  height: 15vh;
+.container-fluid, .navbar-nav, .collapse, .navbar {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: white;
-  position: sticky;
-  top: 0;
-  z-index: 100;
 }
-
-.footerlogo {
-  height: 50px;
+.nav-link{
+  margin-right: 1.5rem;
 }
-
-ul {
-  display: inline;
-
+.footerlogo{
+  margin-left: 6rem;
 }
-
-.navlnk {
-  margin-left: 15px;
-  font-weight: 600;
-  font-family: sans-serif;
-}
-
-.sumlnk {
-  display: block;
-}
-
 .navbtn,
 .solution {
   display: inline;
@@ -159,103 +61,60 @@ ul {
   transition: 1s ease;
   text-decoration: none;
 }
-
-.navbtn:hover {
+.navbtn:hover, .solution:hover {
   background-color: black;
 }
-
-.solution:hover {
-  background-color: black;
-}
-
-.navbtn:active {
+.navbtn:active, .solution:active {
   transform: scale(0.9);
 }
-
-.navlnk {
-  text-decoration: none;
-  color: black;
-}
-
-.navlnk:hover {
-  color: #0067ED;
-  text-decoration: underline;
-}
-
-.mainheader {
-  position: sticky;
-  top: 0px;
-  z-index: 100;
-}
-
 .secone {
-  padding: 1rem;
   width: 100vw;
-  height: 120vh;
+  height: auto;
   display: flex;
+  justify-content: space-evenly;
+  align-items: start;
   flex-direction: column;
-  justify-content: start;
   align-content: space-evenly;
   background-image: url(slider-01-1.jpg);
-  background-repeat: no-repeat;
+  background-repeat:no-repeat;
   background-size: cover;
-  background-position: center;
-  margin-bottom: 2rem;
+  background-position:center;
 }
-
-.seconenav {
-  margin-left: 5rem;
-  margin-top: 3rem;
-}
-
 .since {
-  padding-left: 0.5;
-  padding-right: 0.5;
-  width: 17vw;
-  height: 10vh;
+  text-align: center;
+  padding: 0.8rem;
+  width: 250px;
   border: none;
   background-color: rgb(0, 145, 255);
   border-radius: 2rem;
   font-size: 1.1rem;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-
 .shoking {
   font-size: 4rem;
   font-weight: 500;
   font-family: Robota, sans-serif;
 }
-
 .visa {
   font-size: 4rem;
   font-weight: 600;
   font-family: Robota, sans-serif;
   color: rgb(0, 145, 255);
 }
-
 .webring {
   font-size: 1.3rem;
   font-family: Roboto, sans-serif;
   font-weight: 300;
-  width: 50vw;
 }
-
 .solution {
   border-radius: 2rem;
-  width: 16vw;
-  height: 9vh;
   font-size: 1rem;
   font-weight: 600;
 }
-
 .readmore {
   border-radius: 2rem;
-  width: 16vw;
-  height: 9vh;
+  padding: 1rem;
   font-size: 1rem;
   font-weight: 600;
   background-color: white;
@@ -263,93 +122,131 @@ ul {
   color: black;
   transition: 0.5s ease background-color, 0.5s ease color;
 }
-
 .readmore:hover {
   color: white;
   background-color: rgb(0, 145, 255);
 }
-
-.sectwo {
-  height: 100vh;
+.seconenav{
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+.between {
   width: 100vw;
+  height: auto;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
-
+.betweennav {
+  margin: 1rem;
+  width: 180px;
+  height: 40vh;
+  background-color: rgb(0, 145, 255);
+  border-radius: 1.5rem;
+  border-top: 0.3rem solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: 0.5s ease transform, 0.5s ease -webkit-box-shadow,
+    0.5s ease -moz-box-shadow, 0.5s ease box-shadow;
+}
+.betweennav:hover {
+  transform: translate(-10px, -10px);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.cntryimg {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.cntryname {
+  font-family: Roboto, sans-serif;
+  font-size: 1.2rem;
+}
+.booknow {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+.booknow:hover {
+  color: purple;
+  text-decoration: underline;
+}
+.sectwo {
+  height: auto;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 4rem;
+}
 .coupleimg {
-  height: 80vh;
-  width: 40vw;
+  height: 400px;
+  width: 400px;
 }
-
 .sectwonav {
+  width: 400px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: start;
 }
-
 .welcome {
   font-size: 1rem;
   font-weight: 600;
   font-family: Roboto, sans-serif;
   color: rgb(0, 145, 255);
 }
-
 .traditional {
   font-size: 2rem;
   font-weight: 400;
   font-family: Roboto, sans-serif;
   color: black;
 }
-
 .Immigration {
   font-size: 2.2rem;
   font-weight: 600;
   font-family: Roboto, sans-serif;
   color: black;
 }
-
 .sectwopara {
   font-size: 1rem;
   font-family: Roboto, sans-serif;
   color: black;
-  width: 40vw;
 }
-
 .root {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-
 .sectwonavchildtwo {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
-
 .visatwo,
 .travel {
   font-size: 1.1rem;
   font-weight: 500;
   font-family: Roboto, sans-serif;
-  position: relative;
-  bottom: 0.3rem;
 }
-
 .visapara,
 .travelpara {
   font-size: 0.9rem;
   font-family: Roboto, sans-serif;
-  width: 20vw;
   text-align: center;
 }
-
 .about {
-  width: 15vw;
-  height: 8vh;
+  padding: 0.5rem;
   border: none;
   border-radius: 2rem;
   color: black;
@@ -366,64 +263,15 @@ ul {
 }
 
 .sectwonavchild {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
-
-.between {
+.secthree {
+  text-align: center;
+  flex-wrap: wrap;
   width: 100vw;
   height: auto;
-  /* border: 1px solid red; */
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.betweennav {
-  width: 180px;
-  height: 40vh;
-  background-color: rgb(0, 145, 255);
-  border-radius: 1.5rem;
-  border-top: 0.3rem solid black;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  transition: 0.5s ease transform, 0.5s ease -webkit-box-shadow,
-    0.5s ease -moz-box-shadow, 0.5s ease box-shadow;
-}
-
-.betweennav:hover {
-  transform: translate(-10px, -10px);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-}
-
-.cntryimg {
-  width: 7vw;
-  height: 11vh;
-  border-radius: 50%;
-}
-
-.cntryname {
-  font-family: Roboto, sans-serif;
-  font-size: 1.2rem;
-}
-
-.booknow {
-  font-weight: 500;
-}
-
-.booknow:hover {
-  color: purple;
-}
-
-.secthree {
-  width: 100vw;
-  height: 150vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -433,94 +281,82 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .providedservice {
   font-size: 1rem;
   font-weight: 600;
   font-family: Roboto, sans-serif;
   color: rgb(0, 145, 255);
 }
-
 .expertcreate {
   font-size: 2rem;
   font-weight: 400;
   font-family: Roboto, sans-serif;
   color: white;
 }
-
 .categories {
   font-size: 2.2rem;
   font-weight: 600;
   font-family: Roboto, sans-serif;
   color: white;
 }
-
 .secthreenav {
+  margin-top: 1rem;
+  flex-wrap: wrap;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-
 .secthreenavchild {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   border: 2px solid white;
-  height: 45vh;
-  width: 20vw;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  height: 280px;
+  width: 250px;
+  margin: 1rem;
   transition: 0.5s ease background-color, 0.5s ease scale;
 }
-
 .secthreenavchild:hover {
   background-color: rgb(0, 145, 255);
   scale: 1.1;
 }
-
 .logoimg {
   padding: 0.8rem;
   background-color: white;
   border-radius: 50%;
   border: none;
 }
-
 .skilled {
   font-size: 1.1rem;
   font-family: "Montserrat", sans-serif;
   color: white;
 }
-
 .skilledpara {
   text-align: center;
   color: white;
   padding: 0.5rem;
 }
-
 .secfour {
-  height: 35vh;
+  height: auto;
   width: 100vw;
   background-color: rgb(0, 145, 255);
   color: black;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
 }
-
 .phonelink {
   padding: 1rem;
   border-radius: 50%;
   transition: 0.5s ease background-color;
 }
-
 .phonelink:hover {
   background-color: white;
 }
-
 .consultant {
-  width: 17vw;
-  height: 8vh;
+  padding: 1rem;
   font-size: 1.1rem;
   font-weight: 500;
   border-radius: 2rem;
@@ -533,59 +369,56 @@ ul {
   background-color: black;
   color: white;
 }
-
 .secfournavchildone {
   font-size: 1.5rem;
   font-family: Roboto, sans-serif;
   text-align: center;
   margin-bottom: 1rem;
 }
-
 .secfournavchildtwo {
   text-align: center;
   margin-top: 1rem;
 }
-
 .secfive {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   width: 100vw;
-  height: 100vh;
+  height: auto;
 }
-
 .membertxt {
   font-size: 1rem;
   font-weight: 600;
   font-family: Roboto, sans-serif;
   color: rgb(0, 145, 255);
 }
-
 .immigrationtxt {
   font-size: 2rem;
   font-weight: 400;
   font-family: Roboto, sans-serif;
   color: black;
 }
-
 .cntrytxt {
   font-size: 2.2rem;
   font-weight: 600;
   font-family: Roboto, sans-serif;
   color: black;
 }
-
 .secfivenav {
+  text-align: center;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-
 .firststaff,
-.thirdstaff {
-  width: 25vw;
-  height: 60vh;
+.thirdstaff,
+.secondstaff {
+  width: 300px;
+  height: 400px;
   background-image: url(team-01-1.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -593,25 +426,17 @@ ul {
   display: flex;
   justify-content: center;
   align-items: end;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 2.5rem;
 }
-
-.secondstaff {
-  width: 25vw;
-  height: 60vh;
+.secondstaff{
   background-image: url(team-02-1.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: end;
-}
 
+}
 .secfivechildtwo {
-  width: 20vw;
-  height: 20vh;
+  width: 220px;
+  height: 100px;
   border-radius: 0.5rem;
   background-color: white;
   position: relative;
@@ -622,71 +447,69 @@ ul {
   justify-content: space-evenly;
   align-items: center;
 }
-
 .staffname {
   font-size: 1.1rem;
   font-weight: 500;
   font-family: Roboto, sans-serif;
   color: black;
 }
-
 .staffjob {
   color: rgb(0, 145, 255);
 }
-
 .secsix {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   width: 100vw;
-  height: 100vh;
+  height: auto;
 }
-
 .secsixnav {
   margin-top: 2rem;
-  margin-bottom: 2rem;
 }
-
+.secsixmainnav{
+ display: flex;
+flex-direction: column;
+justify-content: start;
+} 
 .bagimg {
-  width: 35vw;
-  height: 70vh;
+  width: 300px;
+  height: 300px;
 }
-
 .ouragency {
   font-size: 1rem;
   font-weight: 600;
   font-family: Roboto, sans-serif;
   color: rgb(0, 145, 255);
 }
-
 .branches {
   font-size: 2rem;
   font-weight: 400;
   font-family: Roboto, sans-serif;
   color: black;
 }
-
 .theworld {
   font-size: 2.2rem;
   font-weight: 600;
   font-family: Roboto, sans-serif;
   color: black;
 }
-
 .secsixtxt {
   font-family: Roboto, sans-serif;
   font-size: 1rem;
-  width: 40vw;
+  width: 300px;
 }
 
 .lastnavforbar {
+  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: start;
 }
-
 .forbar {
   display: flex;
   flex-direction: column;
@@ -695,83 +518,77 @@ ul {
   margin-top: 0.7rem;
   margin-bottom: 0.7rem;
 }
-
 .bartxt {
-  font-size: 1.1;
+  font-size: 1.1rem;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   margin-bottom: 0.5rem;
 }
-
 .barempty {
-  width: 40vw;
-  height: 3vh;
+  width: 350px;
+  height: 20px;
   border-radius: 1rem;
   border: 1px solid black;
 }
-
 .barfill {
-  width: 35vw;
-  height: 3vh;
+  width: 300px;
+  height: 20px;
   background-color: rgb(0, 145, 255);
   border-radius: 1rem;
 }
-
 .barfilltwo {
-  width: 30vw;
+  width: 250px;
 }
 
 .barfillthree {
-  width: 25vw;
+  width: 200px;
 }
-
 .secseven {
+  text-align: center;
   width: 100vw;
-  height: 35vh;
+  height: auto;
   background-image: url(gallery-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
-
 .ourgallery {
   font-size: 1rem;
   font-weight: 600;
   font-family: Roboto, sans-serif;
   color: white;
 }
-
 .forimmigration {
   font-size: 2rem;
   font-weight: 400;
   font-family: Roboto, sans-serif;
   color: white;
 }
-
 .country {
   font-size: 2.2rem;
   font-weight: 600;
   font-family: Roboto, sans-serif;
   color: white;
 }
-
 .seceight {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   width: 100vw;
-  height: 100vh;
+  height: auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-
 .seceightnav {
-  height: 50vh;
-  width: 25vw;
-  /* border: 1px solid red; */
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 300px;
   margin-left: 1rem;
   margin-right: 1rem;
   display: flex;
@@ -781,10 +598,9 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .seceightnavdiv {
-  width: 25vw;
-  height: 12vh;
+  width: 300px;
+  height: 70px;
   background-color: rgba(255, 255, 255, 0.712);
   display: flex;
   flex-direction: column;
@@ -793,7 +609,6 @@ ul {
   position: relative;
   bottom: 1rem;
 }
-
 .firstimage {
   background-image: url(p2.jpg);
 }
@@ -805,72 +620,69 @@ ul {
 .thirdimage {
   background-image: url(p3.jpg);
 }
-
 .boldtxt {
   font-weight: 600;
   font-size: 1.1rem;
 }
-
-.seceight {
+.secnine {
+  width: 100vw;
+  height: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
 }
-
 .accordiansection {
-  width: 40vw;
+  width: 350px;
 }
 
 .accordianheading {
   font-weight: 600;
 }
-
 .bluetext {
   font-size: 1rem;
   font-weight: 600;
   font-family: Roboto, sans-serif;
   color: rgb(0, 145, 255);
 }
-
 .immigrationreg {
   font-size: 2rem;
   font-weight: 400;
   font-family: Roboto, sans-serif;
   color: black;
 }
-
 .agents {
   font-size: 2.2rem;
   font-weight: 600;
   font-family: Roboto, sans-serif;
   color: black;
 }
-
-.secnine {
+.menimg{
+  width: 300px;
+  height: 400px;
+}
+.secten {
   width: 100vw;
-  height: 100vh;
-  /* border: 1px solid red; */
+  height:100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   background-color: lightgrey;
 }
-
 .caroselslidemain,
 .d-block {
-  width: 40vw;
-  height: 55vh;
-  /* border: 1px solid red; */
+  width: 300px;
+  height: 300px;
 }
-
 .testimonal {
   font-size: 1rem;
   font-weight: 600;
   font-family: Roboto, sans-serif;
   color: rgb(0, 145, 255);
 }
-
 .customer {
   font-size: 2.2rem;
   font-weight: 600;
@@ -878,60 +690,55 @@ ul {
   color: black;
 }
 
-.ninediv {
+.tendiv{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
 .menimg {
   margin-bottom: 5rem;
 }
-
-.secten {
+.seceleven{
   width: 100vw;
-  height: 45vh;
+  height: 200px;
   background-color: rgb(0, 145, 255);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-
+.logoendimg{
+  width: 60px;
+}
 footer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   background-color: rgb(0, 145, 255);
-  margin-top: 10vh;
+  margin-top: 2rem;
   width: 100vw;
-  height: 50vh;
+  height: auto;
 }
-
 .footerchild {
   text-decoration: none;
   list-style: none;
   color: white;
   text-align: start;
 }
-
 .ftrlnk {
   color: white;
   text-decoration: none;
+  margin-top: 0.5rem;
 }
-
 .ftrlnk:hover {
   color: rgb(49, 0, 128);
   text-decoration: underline;
 }
-
 .footersecondchild {
   font-weight: 400;
   font-size: 1rem;
-  width: 20vw;
-  margin-top: 0.5rem;
 }
-
-.firstchildftr {
-  margin-left: 2rem;
+.firstchildftr{
+  width: 300px;
 }
